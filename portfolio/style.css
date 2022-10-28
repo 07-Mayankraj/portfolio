@@ -1,0 +1,91 @@
+* {
+    font-family: "Poppins", sans-serif;
+    color: #5d6d7e;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-bottom: 10%;
+}
+
+#cards {
+    margin: auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#cards>div:hover {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+        rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    background-color: #aeb6bf;
+}
+
+#cards>div {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+#cards>div a {
+    text-decoration: none;
+}
+
+#discription {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+#top>img {
+    width: 15%;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.github :hover {
+    color: teal;
+}
+
+.github {
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+/* meidum screens */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #top>img {
+        width: 30%;
+    }
+}
+
+/* small screens */
+@media all and (min-width: 320px) and (max-width: 767px) {
+    #cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #top>img {
+        width: 50%;
+    }
+}
