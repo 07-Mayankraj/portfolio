@@ -12,4 +12,4 @@ let changeColor = () => {
     });
 };
 
-changeColor();
+// changeColor();
