@@ -1,35 +1,39 @@
-
 * {
     font-family: "Poppins", sans-serif;
     color: #5d6d7e;
 }
-.topskills{
+
+.topskills {
     font-size: 1.1rem;
 }
+
 body {
     text-align: center;
 }
 
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: 100px auto;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    padding-bottom: 10%;
+    border-radius: 15px;
+    box-shadow: rgba(60, 177, 236, 0.25) 0px 54px 55px,
+        rgba(60, 177, 236, 0.25) 0px -12px 30px, rgba(72, 210, 30, 0.12) 0px 4px 6px,
+        rgba(218, 131, 18, 0.17) 0px 12px 13px, rgba(205, 170, 11, 0.09) 0px -3px 5px;
+    background-color:rgba(60, 177, 236, 0.083) ;
+    padding-bottom: 5%;
 }
 
 #cards {
     margin: auto;
-    width: 60%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-#cards>div:hover{
-    background-color: #0b73e330;    
+
+#cards>div:hover {
+    background-color: rgba(60, 177, 236, 0.25);
 }
+
 #cards>div {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-radius: 10px;
@@ -59,17 +63,23 @@ body {
     margin-top: 5%;
 }
 
-#social{
+#social {
     width: 15%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    }
-.social-handles:hover{
+}
 
+footer {
+    margin-bottom: 50px;
+}
+
+.social-handles:hover {
+    background-color:rgba(60, 177, 236, 0.083) ;
     box-shadow: rgba(240, 133, 46, 0.4) 0px 5px, rgba(240, 240, 46, 0.3) 0px 10px, rgba(240, 179, 46, 0.2) 0px 15px, rgba(227, 240, 46, 0.1) 0px 20px, rgba(46, 240, 62, 0.05) 0px 25px;
 }
-.social-handles{
+
+.social-handles {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 10px 10px 7px 10px;
     border-radius: 10px;
@@ -91,6 +101,7 @@ body {
     .container {
         width: 90%;
     }
+
     #cards {
         grid-template-columns: repeat(1, 1fr);
     }
