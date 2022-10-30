@@ -9,10 +9,12 @@
 
 body {
     text-align: center;
+    background-color:rgba(60, 177, 236, 0.083) ;
 }
 
 
-.container {
+#container {
+
     width: 60%;
     margin: 100px auto;
     border-radius: 15px;
