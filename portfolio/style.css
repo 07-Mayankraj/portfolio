@@ -87,8 +87,11 @@ body {
 
 /* small screens */
 @media all and (min-width: 320px) and (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
     #cards {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     #top>img {
