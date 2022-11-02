@@ -104,6 +104,12 @@ footer {
         width: 90%;
     }
 
+    #social {
+        flex-direction: column;
+    }
+    #social>a {
+    margin: 10% auto;        
+    }
     #cards {
         grid-template-columns: repeat(1, 1fr);
     }
