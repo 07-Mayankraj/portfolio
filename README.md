@@ -4,8 +4,7 @@ Computer Applications from
 MLSU Udaipur in June 2022.
 I'm Aspiring MERN stack
 developer
-MongoDB || Express || React ||
-Node
+MongoDB || Express || Node
 Skills
 Project Management
 Problem Solving
